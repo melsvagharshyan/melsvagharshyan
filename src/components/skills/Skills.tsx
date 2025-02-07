@@ -1,8 +1,10 @@
 import { useMemo } from "react";
 import Slider from "react-slick";
 import { skills } from "./utils/constants";
+import { useMediaQuery } from "react-responsive";
 
 const Skills = () => {
+  const isMobile = useMediaQuery({ query: "(max-width: 1140px)" });
   const skillsSlider = useMemo(() => skills, []);
 
   const sliderSettings = useMemo(
@@ -10,7 +12,7 @@ const Skills = () => {
       dots: false,
       infinite: true,
       speed: 1000,
-      slidesToShow: 5,
+      slidesToShow: isMobile ? 1 : 5,
       slidesToScroll: 1,
       autoplay: true,
       autoplaySpeed: 2000,
@@ -25,11 +27,8 @@ const Skills = () => {
   );
 
   return (
-    <div
-      id="skills"
-      className="w-full h-96 bg-gradient-to-r from-white to-cyan-200 flex justify-center items-center"
-    >
-      <div className="w-3/4">
+    <div className="w-full  bg-gradient-to-r from-white to-cyan-200 flex justify-center items-center">
+      <div className="w-2/4">
         {/* <h2 className="text-xl text-center mb-4">My Frontend Skills</h2> */}
         <Slider {...sliderSettings} className="flex">
           {skillsSlider.map((skill) => (
