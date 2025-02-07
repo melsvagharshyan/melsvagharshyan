@@ -2,14 +2,14 @@ import { motion } from "framer-motion";
 import Navbar from "../navbar/Navbar";
 import HeaderCover from "~/assets/images/header.jpeg";
 
-// const textVariants = {
-//   hidden: { opacity: 0, y: 50 },
-//   visible: (i: number) => ({
-//     opacity: 1,
-//     y: 0,
-//     transition: { duration: 0.8, ease: "easeOut", delay: i * 0.3 },
-//   }),
-// };
+const textVariants = {
+  hidden: { opacity: 0, y: 50 },
+  visible: (i: number) => ({
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.8, ease: "easeOut", delay: i * 0.3 },
+  }),
+};
 
 const Header = () => {
   return (
@@ -25,7 +25,7 @@ const Header = () => {
         viewport={{ once: false, amount: 0.3 }}
         className="flex flex-col gap-9 py-28 text-3xl"
       >
-        {/* {[
+        {[
           "Discipline is the bridge between goals and achievement.",
           "Success is built on consistency, not just effort.",
           "Stay disciplined, stay focused – success will follow.",
@@ -41,7 +41,7 @@ const Header = () => {
           >
             {text}
           </motion.h1>
-        ))} */}
+        ))}
       </motion.div>
     </div>
   );
