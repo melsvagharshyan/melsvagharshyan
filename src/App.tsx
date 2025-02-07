@@ -1,6 +1,7 @@
 import "./App.css";
 import About from "./components/about/About";
 import ArrowTop from "./components/arrow-top/ArrowTop";
+import Consultation from "./components/consultation/Consultation";
 import Experience from "./components/experience/Experinece";
 import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
@@ -13,6 +14,7 @@ function App() {
       <About />
       <Skills />
       <Experience />
+      <Consultation />
       <ArrowTop />
       <Footer />
     </div>

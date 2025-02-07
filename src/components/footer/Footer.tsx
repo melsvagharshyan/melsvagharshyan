@@ -1,4 +1,3 @@
-import { MdOutlineEmail } from "react-icons/md";
 import { FaFacebook, FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa";
 import React from "react";
 
@@ -14,23 +13,6 @@ const Footer: React.FC = () => {
           <br />
           it aims to be a way of communication with various programmers.
         </span>
-        <span className="text-sm">
-          Fill in your email to get special offers and updates.
-        </span>
-        <div className="relative flex items-center">
-          <MdOutlineEmail
-            size={20}
-            className="fill-silver absolute left-3 top-1/2 transform -translate-y-1/2"
-          />
-          <input
-            type="text"
-            placeholder="Insert your email here"
-            className="bg-transparent text-silver p-2 pl-12 pr-4 border border-gray-400 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-deepskyblue"
-          />
-          <button className="bg-gradient-to-br from-cyan-500 to-deepskyblue text-white px-4 py-2 rounded-r-lg focus:ring-2 focus:ring-white">
-            Subscribe
-          </button>
-        </div>
       </div>
 
       <div className="flex flex-col items-start space-y-4 mb-8 md:mb-0">
