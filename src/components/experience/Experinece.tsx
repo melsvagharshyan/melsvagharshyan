@@ -34,7 +34,7 @@ const Experience = () => {
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 1, ease: "easeOut", delay: index * 0.3 }}
               viewport={{ once: false, amount: 0.3 }}
-              className="bg-white shadow-lg rounded-3xl p-6 mb-6 w-full max-w-4xl"
+              className="bg-gradient-to-r from-white to-cyan-300 shadow-lg rounded-3xl p-6 mb-6 w-full max-w-4xl"
             >
               <h3 className="text-cyan-700 font-sans font-bold text-xl">
                 {experience.company}
