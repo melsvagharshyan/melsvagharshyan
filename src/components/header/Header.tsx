@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import Navbar from "../navbar/Navbar";
 import HeaderCover from "~/assets/images/header.jpeg";
+import { useMediaQuery } from "react-responsive";
 
 const textVariants = {
   hidden: { opacity: 0, y: 50 },
@@ -12,6 +13,7 @@ const textVariants = {
 };
 
 const Header = () => {
+  const isMobile = useMediaQuery({ query: "(max-width: 1140px)" });
   return (
     <div
       id="navbar"
@@ -34,10 +36,15 @@ const Header = () => {
             key={i}
             custom={i}
             variants={textVariants}
-            className={`text-white ${
-              i === 0 ? "ml-4" : i === 1 ? "ml-40" : "ml-80"
-            }`}
-            style={{ textShadow: "white 0 0 20px" }}
+            className={
+              isMobile
+                ? ""
+                : `text-white ${i === 0 ? "ml-4" : i === 1 ? "ml-40" : "ml-80"}`
+            }
+            style={{
+              textShadow: "white 0 0 20px",
+              textAlign: isMobile ? "center" : "start",
+            }}
           >
             {text}
           </motion.h1>
