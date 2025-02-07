@@ -1,5 +1,8 @@
+// import { MdOutlineEmail } from "react-icons/md";
+import MyLogo from "~/assets/icons/script.png";
 import { FaFacebook, FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa";
 import React from "react";
+import { Link } from "react-scroll";
 
 const Footer: React.FC = () => {
   return (
@@ -8,10 +11,13 @@ const Footer: React.FC = () => {
       className="bg-[#0e232b] p-20 md:p-10 flex flex-col md:flex-row justify-around w-full"
     >
       <div className="flex flex-col w-full max-w-md text-white space-y-8 mb-8 md:mb-0">
+        <Link to="navbar" className="cursor-pointer">
+          <img src={MyLogo} alt="Logo" width={100} />
+        </Link>
         <span className="text-silver text-sm">
-          The Vagharshyan's blog is considered to be my author blog,
-          <br />
-          it aims to be a way of communication with various programmers.
+          The website serves as a communication platform for various developers.
+          In addition, it acts as a direct channel for interaction with clients
+          and employers, ensuring seamless collaboration and engagement.
         </span>
       </div>
 
