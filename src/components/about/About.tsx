@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import MelsImage from "~/assets/images/mels.jpg";
 import { useMediaQuery } from "react-responsive";
+import { Link } from "react-scroll";
 
 const About = () => {
   const isMobile = useMediaQuery({ query: "(max-width: 1140px)" });
@@ -64,13 +65,15 @@ const About = () => {
                   Tailwind CSS, REST APIs, WebSocket, Git, Docker.
                 </span>
               </p>
-              <motion.button
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.95 }}
-                className="mt-12 cursor-pointer px-8 py-4 text-xl font-bold text-gray-800 border-2 border-gray-800 rounded-full shadow-xl hover:bg-gradient-to-r hover:from-cyan-200 hover:to-white hover:text-gray-800 "
-              >
-                CONTACT ME
-              </motion.button>
+              <Link to="contact" className="cursor-pointer">
+                <motion.button
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.95 }}
+                  className="mt-12 cursor-pointer px-8 py-4 text-xl font-bold text-gray-800 border-2 border-gray-800 rounded-full shadow-xl hover:bg-gradient-to-r hover:from-cyan-200 hover:to-white hover:text-gray-800 "
+                >
+                  CONTACT ME
+                </motion.button>
+              </Link>
             </motion.div>
           ) : (
             <div>
@@ -96,13 +99,15 @@ const About = () => {
                   Tailwind CSS, REST APIs, WebSocket, Git, Docker.
                 </span>
               </p>
-              <motion.button
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.95 }}
-                className="mt-12 cursor-pointer px-8 py-4 text-xl font-bold text-gray-800 border-2 border-gray-800 rounded-full shadow-xl hover:bg-gradient-to-r hover:from-cyan-200 hover:to-white hover:text-gray-800 "
-              >
-                CONTACT ME
-              </motion.button>
+              <Link to="contact" className="cursor-pointer">
+                <motion.button
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.95 }}
+                  className="mt-12 cursor-pointer px-8 py-4 text-xl font-bold text-gray-800 border-2 border-gray-800 rounded-full shadow-xl hover:bg-gradient-to-r hover:from-cyan-200 hover:to-white hover:text-gray-800 "
+                >
+                  CONTACT ME
+                </motion.button>
+              </Link>
             </div>
           )}
         </div>
