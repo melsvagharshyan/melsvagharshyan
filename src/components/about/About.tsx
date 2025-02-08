@@ -2,8 +2,10 @@ import { motion } from "framer-motion";
 import MelsImage from "~/assets/images/mels.jpg";
 import { useMediaQuery } from "react-responsive";
 import { Link } from "react-scroll";
+import { useTranslation } from "react-i18next";
 
 const About = () => {
+  const { t } = useTranslation(); // Using the t function to get translations
   const isMobile = useMediaQuery({ query: "(max-width: 1140px)" });
 
   return (
@@ -41,29 +43,17 @@ const About = () => {
               className="md:ml-8 text-center md:text-left"
             >
               <h2 className="text-gray-900 font-sans font-semibold text-4xl mb-4">
-                Software Developer
+                {t("about.title")}
               </h2>
               <p className="text-gray-700 text-lg leading-relaxed max-w-3xl">
-                Experienced Frontend Engineer with a strong background in
-                building responsive, scalable, and user-centric web
-                applications. I specialize in modern JavaScript frameworks such
-                as React.js and Redux, with deep expertise in crafting complex
-                UIs, optimizing performance, and ensuring cross-browser
-                compatibility.
+                {t("about.intro")}
               </p>
               <p className="text-gray-700 text-lg leading-relaxed max-w-3xl mt-4">
-                My work involves translating designs into efficient, reusable
-                code, collaborating closely with backend teams, and focusing on
-                seamless user experiences. I consistently apply best practices
-                in UI/UX development, accessibility, and performance
-                optimization.
+                {t("about.work")}
               </p>
               <p className="text-gray-700 text-lg leading-relaxed max-w-3xl mt-4">
-                Skilled in:{" "}
-                <span className="font-semibold">
-                  React.js, TypeScript, JavaScript (ES6+), HTML5, CSS3, SASS,
-                  Tailwind CSS, REST APIs, WebSocket, Git, Docker.
-                </span>
+                {t("about.skilled_in")}
+                <span className="font-semibold">{t("about.skills")}</span>
               </p>
               <Link to="contact" className="cursor-pointer">
                 <motion.button
@@ -71,33 +61,24 @@ const About = () => {
                   whileTap={{ scale: 0.95 }}
                   className="mt-12 cursor-pointer px-8 py-4 text-xl font-bold text-gray-800 border-2 border-gray-800 rounded-full shadow-xl hover:bg-gradient-to-r hover:from-cyan-200 hover:to-white hover:text-gray-800 "
                 >
-                  CONTACT ME
+                  {t("about.contact_button")}
                 </motion.button>
               </Link>
             </motion.div>
           ) : (
             <div>
+              <h2 className="text-gray-900 font-sans font-semibold text-4xl mb-4">
+                {t("about.title")}
+              </h2>
               <p className="text-gray-700 text-lg leading-relaxed max-w-3xl">
-                Experienced Frontend Engineer with a strong background in
-                building responsive, scalable, and user-centric web
-                applications. I specialize in modern JavaScript frameworks such
-                as React.js and Redux, with deep expertise in crafting complex
-                UIs, optimizing performance, and ensuring cross-browser
-                compatibility.
+                {t("about.intro")}
               </p>
               <p className="text-gray-700 text-lg leading-relaxed max-w-3xl mt-4">
-                My work involves translating designs into efficient, reusable
-                code, collaborating closely with backend teams, and focusing on
-                seamless user experiences. I consistently apply best practices
-                in UI/UX development, accessibility, and performance
-                optimization.
+                {t("about.work")}
               </p>
               <p className="text-gray-700 text-lg leading-relaxed max-w-3xl mt-4">
-                Skilled in:{" "}
-                <span className="font-semibold">
-                  React.js, TypeScript, JavaScript (ES6+), HTML5, CSS3, SASS,
-                  Tailwind CSS, REST APIs, WebSocket, Git, Docker.
-                </span>
+                {t("about.skilled_in")}
+                <span className="font-semibold">{t("about.skills")}</span>
               </p>
               <Link to="contact" className="cursor-pointer">
                 <motion.button
@@ -105,7 +86,7 @@ const About = () => {
                   whileTap={{ scale: 0.95 }}
                   className="mt-12 cursor-pointer px-8 py-4 text-xl font-bold text-gray-800 border-2 border-gray-800 rounded-full shadow-xl hover:bg-gradient-to-r hover:from-cyan-200 hover:to-white hover:text-gray-800 "
                 >
-                  CONTACT ME
+                  {t("about.contact_button")}
                 </motion.button>
               </Link>
             </div>

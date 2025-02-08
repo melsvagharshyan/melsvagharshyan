@@ -4,8 +4,11 @@ import clsx from "clsx";
 import { navLinks } from "./utils/constants";
 import MyLogo from "~/assets/icons/script.png";
 import { Menu, X } from "lucide-react";
+import LanguageDropdown from "../language-dropdown/LanguageDropdown";
+import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
+  const { t } = useTranslation();
   const [active, setActive] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -38,19 +41,22 @@ const Navbar = () => {
       <Link to="navbar" className="cursor-pointer">
         <img src={MyLogo} alt="Logo" width={50} height={50} />
       </Link>
-      <div className="hidden md:flex gap-10 items-center">
-        {navLinks.map(({ title, href }) => (
-          <Link
-            key={title}
-            to={href}
-            duration={500}
-            smooth={true}
-            offset={50}
-            className={linkStyle(active)}
-          >
-            {title.toUpperCase()}
-          </Link>
-        ))}
+      <div className="flex gap-10 items-center">
+        <div className="hidden md:flex gap-10 items-center">
+          {navLinks.map(({ title, href }) => (
+            <Link
+              key={title}
+              to={href}
+              duration={500}
+              smooth={true}
+              offset={50}
+              className={linkStyle(active)}
+            >
+              {t(`navbar.${title.toLowerCase()}`).toUpperCase()}{" "}
+            </Link>
+          ))}
+        </div>
+        <LanguageDropdown isActive={active} />
       </div>
       <button className="md:hidden" onClick={toggleMenu}>
         <Menu size={30} />
@@ -77,7 +83,7 @@ const Navbar = () => {
             className="text-lg font-semibold text-gray-700"
             onClick={toggleMenu}
           >
-            {title.toUpperCase()}
+            {t(`navbar.${title.toLowerCase()}`).toUpperCase()}{" "}
           </Link>
         ))}
       </div>

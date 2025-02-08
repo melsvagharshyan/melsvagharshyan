@@ -1,10 +1,12 @@
-// import { MdOutlineEmail } from "react-icons/md";
-import MyLogo from "~/assets/icons/script.png";
 import { FaFacebook, FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa";
 import React from "react";
 import { Link } from "react-scroll";
+import MyLogo from "~/assets/icons/script.png";
+import { useTranslation } from "react-i18next"; // Importing useTranslation
 
 const Footer: React.FC = () => {
+  const { t } = useTranslation(); // Using the t function to get translations
+
   return (
     <div
       id="contact"
@@ -15,9 +17,7 @@ const Footer: React.FC = () => {
           <img src={MyLogo} alt="Logo" width={100} />
         </Link>
         <span className="text-silver text-sm">
-          The website serves as a communication platform for various developers.
-          In addition, it acts as a direct channel for interaction with clients
-          and employers, ensuring seamless collaboration and engagement.
+          {t("footer.description")} {/* Translating the description */}
         </span>
       </div>
 
@@ -28,7 +28,8 @@ const Footer: React.FC = () => {
           target="_blank"
         >
           <FaFacebook size={20} />
-          <span>Facebook</span>
+          <span>{t("footer.socials.facebook")}</span>{" "}
+          {/* Translating Facebook */}
         </a>
         <a
           href="https://www.linkedin.com/in/mels-vagharshyan-522735227/"
@@ -36,7 +37,8 @@ const Footer: React.FC = () => {
           target="_blank"
         >
           <FaLinkedin size={20} />
-          <span>Linkedin</span>
+          <span>{t("footer.socials.linkedin")}</span>{" "}
+          {/* Translating LinkedIn */}
         </a>
         <a
           href="https://www.instagram.com/mels_vagharshyan/"
@@ -44,7 +46,8 @@ const Footer: React.FC = () => {
           target="_blank"
         >
           <FaInstagram size={20} />
-          <span>Instagram</span>
+          <span>{t("footer.socials.instagram")}</span>{" "}
+          {/* Translating Instagram */}
         </a>
         <a
           href="https://github.com/melsvagharshyan"
@@ -52,31 +55,33 @@ const Footer: React.FC = () => {
           target="_blank"
         >
           <FaGithub size={20} />
-          <span>GitHub</span>
+          <span>{t("footer.socials.github")}</span> {/* Translating GitHub */}
         </a>
       </div>
 
       <div className="text-right text-white flex flex-col items-end">
-        <div className="text-deepskyblue text-lg pb-4">Contact Me</div>
+        <div className="text-deepskyblue text-lg pb-4">
+          {t("footer.contactMe")} {/* Translating "Contact Me" */}
+        </div>
         <div className="flex flex-col items-end space-y-2">
           <a
             href="tel:+37494541615"
             className="text-white text-sm md:text-base"
           >
-            +37494541615
+            {t("footer.phone1")} {/* Translating phone number 1 */}
           </a>
           <a
             href="tel:+37491991615"
             className="text-white text-sm md:text-base"
           >
-            +37491991615
+            {t("footer.phone2")} {/* Translating phone number 2 */}
           </a>
           <hr className="h-[0.09px] bg-white w-full my-2" />
           <span className="text-white text-sm md:text-base">
-            mels.vagharshyandev@gmail.com
+            {t("footer.email")} {/* Translating email */}
           </span>
           <span className="text-white text-sm md:text-base">
-            melsvagharshyan.github.io
+            {t("footer.website")} {/* Translating website */}
           </span>
         </div>
       </div>

@@ -1,0 +1,65 @@
+{
+  "about": {
+    "intro": "Experienced Frontend Engineer with a strong background in building responsive, scalable, and user-centric web applications. I specialize in modern JavaScript frameworks such as React.js and Redux, with deep expertise in crafting complex UIs, optimizing performance, and ensuring cross-browser compatibility.",
+    "title": "Software Developer",
+    "work": "My work involves translating designs into efficient, reusable code, collaborating closely with backend teams, and focusing on seamless user experiences. I consistently apply best practices in UI/UX development, accessibility, and performance optimization.",
+    "skilled_in": "Skilled in: ",
+    "skills": "React.js, TypeScript, JavaScript (ES6+), HTML5, CSS3, SASS, Tailwind CSS, REST APIs, WebSocket, Git, Docker.",
+    "contact_button": "CONTACT ME"
+  },
+  "navbar": {
+    "about": "About",
+    "experience": "Experience",
+    "consultation": "Consultation",
+    "contact": "Contact"
+  },
+  "header": {
+    "quote1": "Discipline is the bridge between goals and achievement.",
+    "quote2": "Success is built on consistency, not just effort.",
+    "quote3": "Stay disciplined, stay focused – success will follow."
+  },
+  "experience": {
+    "title": "Work Experience",
+    "experiences": [
+      {
+        "company": "Bee IT LLC",
+        "role": "Frontend Developer",
+        "duration": "2020 - 2021",
+        "description": "Worked on building responsive web applications using React.js and Redux. Focused on improving performance and user experience."
+      },
+      {
+        "company": "Digitain Armenia",
+        "role": "Software Engineer",
+        "duration": "2022 - 2023",
+        "description": "Contributed to the development of various gaming platforms, focusing on creating engaging and seamless user experiences. Key projects include Club Poker and Lottery Game, utilizing React.js, TypeScript, and backend integration."
+      },
+      {
+        "company": "Creatix Technologies",
+        "role": "Front-End Developer",
+        "duration": "2023 - Present",
+        "description": "Led and contributed to various software development projects across different industries. Key projects include Project Management Platform for Builders and Health Engagement Network, utilizing React.js, TypeScript, REST APIs, and Node.js."
+      }
+    ]
+  },
+  "consultation": {
+    "title": "Let's Talk",
+    "namePlaceholder": "Enter your name",
+    "emailPlaceholder": "Enter your email",
+    "phonePlaceholder": "Enter your phone number",
+    "buttonText": "Send Message"
+  },
+  "footer": {
+    "description": "The website serves as a communication platform for various developers. In addition, it acts as a direct channel for interaction with clients and employers, ensuring seamless collaboration and engagement.",
+    "socials": {
+      "facebook": "Facebook",
+      "linkedin": "Linkedin",
+      "instagram": "Instagram",
+      "github": "GitHub"
+    },
+    "contactMe": "Contact Me",
+    "phone1": "+37494541615",
+    "phone2": "+37491991615",
+    "email": "mels.vagharshyandev@gmail.com",
+    "website": "melsvagharshyan.github.io"
+  }
+}

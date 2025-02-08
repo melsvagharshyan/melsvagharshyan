@@ -1,9 +1,19 @@
 import { motion } from "framer-motion";
-import { experiences } from "./utils/constants";
 import { useMediaQuery } from "react-responsive";
+import { useTranslation } from "react-i18next";
 
 const Experience = () => {
+  const { t } = useTranslation();
   const isMobile = useMediaQuery({ query: "(max-width: 1140px)" });
+
+  const experiences = t("experience.experiences", {
+    returnObjects: true,
+  }) as Array<{
+    company: string;
+    role: string;
+    duration: string;
+    description: string;
+  }>;
 
   return (
     <section
@@ -12,12 +22,12 @@ const Experience = () => {
     >
       <div className="flex flex-col items-center py-16 px-6 md:px-12">
         <h2 className="text-gray-900 font-sans font-semibold text-4xl mb-6">
-          Work Experience
+          {t("experience.title")}
         </h2>
-        {experiences.map((experience, index) =>
+        {experiences.map((experience, index: number) =>
           isMobile ? (
             <div
-              key={index}
+              key={experience.company}
               className="bg-white shadow-lg rounded-3xl p-6 mb-6 w-full max-w-4xl"
             >
               <h3 className="text-cyan-700 font-sans font-bold text-xl">
@@ -29,7 +39,7 @@ const Experience = () => {
             </div>
           ) : (
             <motion.div
-              key={index}
+              key={experience.company}
               initial={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 1, ease: "easeOut", delay: index * 0.3 }}
