@@ -6,6 +6,7 @@ import Experience from "./components/experience/Experinece";
 import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 import Skills from "./components/skills/Skills";
+import { ToastContainer } from "react-toastify";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Consultation />
       <ArrowTop />
       <Footer />
+      <ToastContainer />
     </div>
   );
 }

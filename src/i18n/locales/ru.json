@@ -61,5 +61,13 @@
     "phone2": "+37491991615",
     "email": "mels.vagharshyandev@gmail.com",
     "website": "melsvagharshyan.github.io"
+  },
+  "validations": {
+    "name": "Имя обязательно",
+    "email": "Неверный email",
+    "invalidEmail": "Неверный email",
+    "phoneNumber": "Номер телефона обязателен",
+    "submitSuccess": "Ваше сообщение было успешно отправлено!",
+    "submitError": "Что-то пошло не так, пожалуйста, попробуйте снова."
   }
 }
