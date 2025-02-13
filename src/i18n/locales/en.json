@@ -4,7 +4,7 @@
     "title": "Software Developer",
     "work": "My work involves translating designs into efficient, reusable code, collaborating closely with backend teams, and focusing on seamless user experiences. I consistently apply best practices in UI/UX development, accessibility, and performance optimization.",
     "skilled_in": "Skilled in: ",
-    "skills": "React.js, TypeScript, JavaScript (ES6+), HTML5, CSS3, SASS, Tailwind CSS, REST APIs, WebSocket, Git, Docker.",
+    "skills": "React.js, Next.js, Vue.js,Redux(toolkit), Pinia, MobX, TypeScript, JavaScript (ES6+), HTML5, CSS3, SASS, Tailwind CSS, REST APIs, WebSocket, Git, Docker.",
     "contact_button": "CONTACT ME"
   },
   "navbar": {

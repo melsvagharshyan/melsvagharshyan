@@ -4,7 +4,7 @@
     "title": "Веб-Разработчик",
     "work": "Моя работа включает в себя перевод дизайнов в эффективный, повторно используемый код, тесное сотрудничество с командами backend и фокус на бесшовных пользовательских опытах. Я постоянно применяю лучшие практики в разработке UI/UX, доступности и оптимизации производительности.",
     "skilled_in": "Обладаю навыками: ",
-    "skills": "React.js, TypeScript, JavaScript (ES6+), HTML5, CSS3, SASS, Tailwind CSS, REST APIs, WebSocket, Git, Docker.",
+    "skills": "React.js, Vue.js,Redux(toolkit), Pinia, MobX, TypeScript, JavaScript (ES6+), HTML5, CSS3, SASS, Tailwind CSS, REST APIs, WebSocket, Git, Docker.",
     "contact_button": "Связаться со мной"
   },
   "navbar": {
