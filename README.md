@@ -40,12 +40,23 @@
 <br>
 <img align="right" height="270px" alt="GIF" src="https://res.cloudinary.com/dxfqf6fgv/image/upload/v1763488148/IMG_5290_ifknwt.jpg" />
 
-- 👷 Currently working on: Enhancing Full-Stack Development skills and React/Node.js projects.  
-- 🧑‍🤝‍🧑 Collaborating on: Web applications and UI/UX designs.  
-- 🤝 Open to help with: Complex JavaScript and Python problems.  
-- 🌱 Learning: Advanced React, TypeScript, and modern backend frameworks.  
-- 💬 Ask me about: Full-Stack Development, UI/UX, Node.js, and React.  
-- ⚡ Fun fact: Gaming alias is "Casper"! 🎮  
+➤ 7+ years of professional expertise in the Information Technology industry
+<br>
+➤ Frontend Development: JavaScript | TypeScript | React.js | Next.js
+<br>
+➤ Blockchain & Web3: Solidity, Web3.js, smart contracts
+<br>
+➤ Backend (server-side JavaScript/TypeScript): Node.js, Express.js, Nest.js
+<br>
+➤ Architecture & Design: OOP, Design Patterns, Microservice Architecture
+<br>
+➤ Cloud & DevOps: AWS S3, Azure (Blob Storage), CI/CD (GitHub Actions, Docker)
+<br>
+➤ Databases: PostgreSQL, MongoDB
+<br>
+➤ Collaboration & Processes: Git, Agile methodologies, automated development pipelines
+<br>
+➤ Soft Skills: Strong communication, leadership in code reviews, mentoring, and cross-team collaboration
 
 <br>
 
