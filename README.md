@@ -7,6 +7,7 @@
 <div align="center">
   <h3>Senior Software Engineer | Full-Stack Developer | React & Node.js Specialist</h3>
   <p>The world of technology 🌐 fascinates me, and I am passionate about building efficient, scalable, and user-friendly digital solutions. With strong expertise in modern front-end and back-end technologies, I focus on delivering high-quality software that makes an impact. I enjoy exploring new tech stacks 💻 and continuously improving my skills to solve complex problems creatively 🛠️.</p>
+  <p>🌐 Check out my website: <a href="https://www.melsvagharshyan.com" style="color:#00ffff;">www.melsvagharshyan.com</a></p>
 </div>
 
 <br>
@@ -37,7 +38,7 @@
 
 ## <picture><img src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width="50px"></picture> About Me
 <br>
-<img align="right" height="270px" alt="GIF" src="https://media.giphy.com/media/CVtNe84hhYF9u/giphy.gif" />
+<img align="right" height="270px" alt="GIF" src="https://res.cloudinary.com/dxfqf6fgv/image/upload/v1763488148/IMG_5290_ifknwt.jpg" />
 
 - 👷 Currently working on: Enhancing Full-Stack Development skills and React/Node.js projects.  
 - 🧑‍🤝‍🧑 Collaborating on: Web applications and UI/UX designs.  
@@ -52,12 +53,17 @@
 
 **🖥️ Frontend**  
 <p align="left">
-  <a href="https://html.spec.whatwg.org"><img src="https://skillicons.dev/icons?i=html" alt="HTML" /></a>
-  <a href="https://www.w3schools.com/css/"><img src="https://skillicons.dev/icons?i=css" alt="CSS" /></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://skillicons.dev/icons?i=javascript" alt="JavaScript" /></a>
-  <a href="https://www.typescriptlang.org"><img src="https://skillicons.dev/icons?i=typescript" alt="TypeScript" /></a>
-  <a href="https://reactjs.org"><img src="https://skillicons.dev/icons?i=react" alt="React" /></a>
-  <a href="https://tailwindcss.com"><img src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind CSS" /></a>
+<a href="https://html.spec.whatwg.org"><img src="https://skillicons.dev/icons?i=html" alt="HTML" /></a>
+<a href="https://www.w3schools.com/css/"><img src="https://skillicons.dev/icons?i=css" alt="CSS" /></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://skillicons.dev/icons?i=javascript" alt="JavaScript" /></a>
+<a href="https://www.typescriptlang.org"><img src="https://skillicons.dev/icons?i=typescript" alt="TypeScript" /></a>
+<a href="https://reactjs.org"><img src="https://skillicons.dev/icons?i=react" alt="React" /></a>
+<a href="https://redux.js.org"><img src="https://skillicons.dev/icons?i=redux" alt="Redux" /></a>
+<a href="https://tailwindcss.com"><img src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind CSS" /></a>
+<a href="https://sass-lang.com"><img src="https://skillicons.dev/icons?i=sass" alt="Sass" /></a>
+<a href="https://mui.com"><img src="https://skillicons.dev/icons?i=mui" alt="Material UI" /></a>
+<a href="https://lesscss.org"><img src="https://skillicons.dev/icons?i=less" alt="Less" /></a>
+<a href="https://nextjs.org"><img src="https://skillicons.dev/icons?i=nextjs" alt="Next.js" /></a>
 </p>
 
 **⚙️ Backend**  
@@ -85,5 +91,4 @@
   <a href="https://git-scm.com/"><img src="https://skillicons.dev/icons?i=git" alt="Git" /></a>
   <a href="https://postman.com"><img src="https://skillicons.dev/icons?i=postman" alt="Postman" /></a>
   <a href="https://www.figma.com"><img src="https://skillicons.dev/icons?i=figma" alt="Figma" /></a>
-  <a href="https://nextjs.org"><img src="https://skillicons.dev/icons?i=nextjs" alt="Next.js" /></a>
 </p>
