@@ -38,7 +38,7 @@
 
 ## <picture><img src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width="50px"></picture> About Me
 <br>
-<img align="right" height="270px" alt="GIF" src="https://res.cloudinary.com/dxfqf6fgv/image/upload/v1763488148/IMG_5290_ifknwt.jpg" />
+<img align="right" height="270px" alt="GIF" src="https://res.cloudinary.com/dxfqf6fgv/image/upload/v1764453873/image_qgzzv2.png" />
 
 ➤ 7+ years of professional expertise in the Information Technology industry
 <br>
