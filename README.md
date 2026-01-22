@@ -84,7 +84,7 @@
   <a href="https://expressjs.com"><img src="https://skillicons.dev/icons?i=express" alt="Express.js" /></a>
 </p>
 
-**🗃️ Databases**  
+**🗃️ Database**  
 <p align="left">
   <a href="https://www.mysql.com"><img src="https://skillicons.dev/icons?i=mysql" alt="MySQL" /></a>
   <a href="https://www.postgresql.org"><img src="https://skillicons.dev/icons?i=postgresql" alt="PostgreSQL" /></a>
