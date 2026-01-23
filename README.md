@@ -97,7 +97,7 @@
   <a href="https://www.docker.com"><img src="https://skillicons.dev/icons?i=docker" alt="Docker" /></a>
 </p>
 
-**🛠️ Tools & Otherssss**  
+**🛠️ Tools & Others**  
 <p align="left">
   <a href="https://git-scm.com/"><img src="https://skillicons.dev/icons?i=git" alt="Git" /></a>
   <a href="https://postman.com"><img src="https://skillicons.dev/icons?i=postman" alt="Postman" /></a>
