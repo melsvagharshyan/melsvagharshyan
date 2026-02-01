@@ -91,7 +91,7 @@
   <a href="https://www.mongodb.com"><img src="https://skillicons.dev/icons?i=mongodb" alt="MongoDB" /></a>
 </p>
 
-**☁️ Cloud & DevOps**  
+**☁️ Cloud & DevOpssssss**  
 <p align="left">
   <a href="https://aws.amazon.com"><img src="https://skillicons.dev/icons?i=aws" alt="AWS" /></a>
   <a href="https://www.docker.com"><img src="https://skillicons.dev/icons?i=docker" alt="Docker" /></a>
