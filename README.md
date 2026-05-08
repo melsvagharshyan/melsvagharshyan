@@ -6,7 +6,7 @@
 </div>
 
 <div align="center">
-  <h3>Senior Software Engineer | Full-Stack Developer | React & Node.js Specialist</h3>
+  <h3>Senior Software Engineer | Front-end Developer | React & Node.js Specialist</h3>
   <p>The world of technology 🌐 fascinates me, and I am passionate about building efficient, scalable, and user-friendly digital solutions. With strong expertise in modern front-end and back-end technologies, I focus on delivering high-quality software that makes an impact. I enjoy exploring new tech stacks 💻 and continuously improving my skills to solve complex problems creatively 🛠️.</p>
   <p>🌐 Check out my website: <a href="https://www.melsvagharshyan.com" style="color:#00ffff;">www.melsvagharshyan.com</a></p>
 </div>
